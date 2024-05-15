@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS accounts;
+CREATE TABLE accounts (
+  name TEXT NOT NULL,
+  email TEXT NOT NULL PRIMARY KEY,
+  password TEXT NOT NULL
+);
